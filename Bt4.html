@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+
+   function tinhHieuSoNguyen(Arr) {
+       let hieu=Arr[0]
+       for (let i=1;i<Arr.length;i++){
+
+           hieu -= Arr[i]
+       }
+      document.write('Hiệu các số nguyên trong mảng = '+ hieu)
+   }
+   let Arr=[2,3]
+   tinhHieuSoNguyen(Arr)
+</script>
+</body>
+</html>

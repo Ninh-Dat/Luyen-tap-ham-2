@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function minST(Arr) {
+        let min=Arr[0]
+        for (let i=1;i<Arr.length;i++){
+            if (min>Arr[i]){
+                min=Arr[i]
+            }
+        }
+        return min;
+    }
+    document.write(minST([3,5,6,4,2]))
+</script>
+</body>
+</html>

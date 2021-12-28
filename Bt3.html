@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   function Maxthu2(Arr) {
+     Arr.sort(function (a,b){
+           return (a-b);
+       })
+return Arr[Arr.length-2]
+   }
+
+ document.write( Maxthu2([2,3,6,7,8,9]))
+</script>
+</body>
+</html>
